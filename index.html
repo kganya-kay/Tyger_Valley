@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/">
+    <script src="https://kit.fontawesome.com/a7518813f9.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+    <title>Tyger Valley</title>
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="row">
+        <nav class="navbar">
+            <div class="col-sm-auto p-0">
+                <img src="./assets/Vector Smart Object.png"  id="logo"alt="logo">
+            </div>
+            
+            <div class="col-sm">
+                <ul class="list-group list-group-horizontal show">
+                    <li class="list-group-item align flex-fill"><a href="#">On Today</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">Movies</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">Happening</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">Exhibitions</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#tradingHours">Contact</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">The Centre</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">Shopper Zone</a></li>
+                    <li class="list-group-item align flex-fill"><a href="#">Tenant Zone</a></li>
+                    
+                        <a href="#" style="color: white;"><img src="./assets/search.png" class=" btn" alt=""> </a>   
+                    
+                    
+                </ul>
+                <a href="#" class="toggle-button" onclick="toggle()" id="humburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+            </div>
+            
+        </nav>
+       </div> 
+       
+       <div class="row">
+        <div id="carousel" class="carousel slide p-0 " data-bs-ride="carousel">
+            <div class="carousel-inner position-relative ">
+                <div class="carousel-item active ">
+                    <img src="./assets/heroSlide1.png" class="d-block w-100 " alt="slide">
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/heroSlide2.png" class="d-block w-100 " alt="slide">
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/heroSlide3.png" class="d-block w-100 " alt="slide">
+                </div>
+
+                <div class="row  " >
+                    <div class="position-absolute " id="slideContent">
+                        <h1 id="tygerValley" class="h1">TYGER VALLEY</h1>
+                        <h1 id="centreWhere" class="h1">CENTRE WHERE</h1>
+                        <h2>LOCAL & INTERNATIONAL BRANDS FUSE</h2>
+                        <div class="row borderTop c-links">
+                      
+                            <div class="col-auto">
+                                <div class="row">
+                                    <div class="col-auto m-0 p-0">
+                                        <img src="./assets/time.png" class="slide-image" alt="">
+                                    </div>
+                                    <div class="col m-0 p-0 ">
+                                        <p>OPEN TODAY<br>
+                                        09:00 - 6PM</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <div class="col-auto m-0 p-0">
+                                        <img src="./assets/location.png" class="slide-image" alt="">
+                                    </div>
+                                    <div class="col m-0 p-0">
+                                        <p>DIRECT ME<br>
+                                        <a href="#" style="font-weight: bold;">VIEW MALL MAP</a></p>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                            <div class="col-auto m-0 p-0">
+                                    
+                                        <img src="./assets/cloud.png" class="slide-image" alt="">
+                                    
+                            </div>
+                         
+                        </div>
+                    </div>
+                    
+                </div
+            </div>
+       </div>
+       </div>
+
+       
+
+
+       <div class="row">
+        <div class="col-sm-8 p-0">
+            <img src="./assets/BLOG couple legs.png" class="w-100"  alt="couple legs">
+        </div>
+        <div class="col text" id="aboutTheMall">
+            <h1 style="font-size: 26px;">about the mall</h1>
+            <h2>where lifestyle, leisure and the latest fashion meet</h2>
+            <p >Whether you're looking for fashion, a fun night out or simply want to relax, browse or shop - Tyger Valley Centre is your perfect destination. Discover a unique shopping experience - offering the greatest variety in fashion, health & beauty, the latest in Athleisure & Sporting, or spoil yourself with the latest Homeware trends & comforts.</p>
+
+            <p>Tyger Valley is the leading regional shopping destination in the Northern Suburbs - just a 15-minute drive from Cape Town CBD and moments from the beautiful winelands. Tyger Valley is conveniently located just off from the N1, with easy access from Willie Van Schoor off ramp.</p>
+            <button class="btn-primary">
+                Read More
+            </button>
+        </div>
+       </div>
+
+       <div class="row pt-2 pb-2">
+        <div class="col-sm text borderRight align">
+            <img src="./assets/shop.png" alt="">
+            <h1>SHOP</h1>
+            <p>View our exciting in-centre events, <a href="#">Click here</a> for more details</p>
+        </div>
+        <div class="col-sm text borderRight align">
+            <img src="./assets/dine.png" alt="">
+            <h1>DINE</h1>
+            <p>View our exciting in-centre events, <a href="#">Click here</a> for more details</p>
+        </div>
+        <div class="col-sm text align ">
+            <img src="./assets/entertain.png" class="dine"alt="">
+            <h1>ENTERTAIN</h1>
+            <p>View our exciting in-centre events, <a href="#">Click here</a> for more details</p>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="col-sm p-0 position-relative  ">
+            <div class="position-absolute text p-3">
+                <h1>CURRENT EVENTS</h1>
+                <p>View our exciting in-centre events, <a href="#">Click here</a> for more details</p>
+            </div>
+            <img src="./assets/lady.png" class="w-100" alt="lady holding a bag">
+        </div>
+
+        <div class="col-sm p-0 position-relative">
+            <div class="position-absolute text p-3 color-white">
+                <h1>NOW SHOWING</h1>
+                <p> <a href="#">Click here</a> for more details</p>
+            </div>
+            <img src="./assets/people.png"  class="w-100" alt="people watching">
+        </div>
+       </div>
+
+       <div class="row" id="socials">
+        <div class="col-sm-4 text">
+            <h1>LETS GET SOCIAL</h1>
+            <P>FOLLOW US ON OUR AWESOME SOCIAL PLATFORMS</P>
+        </div>
+        <div class="col-sm">
+            <div class="row icons">
+                <div class="col-auto b-color align btn">
+                    <p>BLOG</p>
+                </div>
+                <div class="col-auto b-color align btn">
+                    <img src="./assets/youtube.png" alt="">
+                </div>
+                <div class="col-auto b-color align btn">
+                    <img src="./assets/insta.png" alt="">
+                </div>
+                <div class="col-auto b-color align btn">
+                    <img src="./assets/facebook.png" alt="">
+                </div>
+                <div class="col-auto b-color align btn">
+                    <img src="./assets/twitter.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+       </div>
+
+       <div id="tradingHours" class="row position-relative color-white ">
+        <div class="position-absolute text p-3">
+            <h1>TRADING HOURS</h1>
+            <div class="row">
+                <div class="col-auto">
+                    <p>Monday - Saturday</p>
+                    <p>Sunday </p>
+                    <p>Public Holidays</p>
+                </div>
+                <div class="col">
+                    <p>09:00 - 19:00</p>
+                    <p>09:00 - 17:00</p>
+                    <p>09:00 - 19:00</p>
+                </div>
+            </div>
+            
+            <button class="btn-primary">Read More</button>
+        </div>
+        <img src="./assets/tradingHours.png" class="w-100 p-0" alt="2 people">
+       </div>
+
+       <div id="promotions" class="row">
+        <h1 class="align" style="font-size: 26px;">PROMOTIONS</h1>
+        <div class="col-sm p-0 text">
+            <img src="./assets/promo1.png" class="w-100" alt="promotion image">
+            <p> <a href="#">Click here</a> for more details</p>
+        </div>
+        <div class="col-sm text">
+            <img src="./assets/promo2.png" class="w-100" alt="promotion image">
+            <p> <a href="#">Click here</a> for more details</p>
+        </div>
+        <div class="col-sm text">
+            <img src="./assets/promo3.png" class="w-100" alt="promotion image">
+            <p> <a href="#">Click here</a> for more details</p>
+        </div>
+       </div>
+
+       <div class="row text p-3" id="subscribe">
+            <div class="col-sm">
+                <h1>SUBSCRIBE</h1>
+            </div>
+            <div class="col-sm-1 send align btn">
+                <img src="./assets/send.png" alt="">
+            </div>
+            <div class="col-sm">
+                <P>GET UPDATES AND SIGN UP FOR OUR EXCITING NEWSLETTER</P>
+            </div>
+       </div>
+
+       <div class="row p-3" id="instagram">
+            <div class="col-sm-3 text">
+                <h1>INSTAGRAM</h1>
+                <p><a href="#">View</a> on instagram</p>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                   <div class="col-sm p-0">
+                    <img src="./assets/insta2.png" class="w-100" alt="">
+                   </div> 
+                   <div class="col-sm p-0">
+                    <img src="./assets/insta3.png" class="w-100" alt="">
+                   </div> 
+                   <div class="col-sm p-0">
+                    <img src="./assets/insta4.png" class="w-100" alt="">
+                   </div> 
+                </div>
+            </div>
+       </div>
+
+       <div class="row" id="contacts">
+            <div class="col-8">
+                GOOGLE MAPS API
+            </div>
+            <div class="col text borderTop" style="background-color: rgb(118, 151, 124); color: white;">
+                <h1>CONTACT DETAILS</h1>
+
+                <div class="pt-3">
+                    <p>Tyger Valley Centre PO Box 3001<br>
+                        Corner of Bill Bezuidenhuit and<br>
+                        Willie van Schoor Bellville 7536</p>
+                </div>
+                
+                <div class="pt-3">
+                    <p> +27 (0) 21 914 1822<br>
+                        +27 (0) 21 914 1318<br>
+                        info@tygervalley.co.za<br>
+                        S 33° 52' 479’ E 18° 38' 050’</p>
+                </div>
+               
+            </div>
+       </div>
+
+       <div class="row text" id="QuickLinks">
+        <div class="col borderRight">
+            <h1 style="color: rgb(118, 151, 124);">QUICK LINKS</h1>
+            <div class="">
+                <p> info@tygervalley.co.za<br>
+                    Tel: (021) 914 1822<br>
+                    Fax: (021) 914 1318<br> 
+                    Security Direct Line (021) 918 6802</p>
+            </div>
+        </div>
+        <div class="col borderRight">
+            <h1  style="color: rgb(118, 151, 124);">TRADING HOURS</h1>
+            <div class="row">
+                <div class="col">
+                    <p> 
+                        Monday - Saturday <span> </span>09:00 - 19:00<br>
+                        Sunday <span> </span>09:00 - 17:00<br>
+                        Public Holidays <span> </span>09:00 - 19:00
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col borderRight">
+            <h1  style="color: rgb(118, 151, 124);">SOCIAL LINKS</h1>
+            <div class="row">
+                <div class="col b-color mx-10 btn">
+                    <img src="./assets/youtube.png" alt="">
+                </div>
+                <div class="col b-color mx-10 btn">
+                    <img src="./assets/insta.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col b-color mx-10 btn">
+                    <img src="./assets/facebook.png" alt="">
+                </div>
+                <div class="col b-color mx-10 btn">
+                    <img src="./assets/twitter.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="col ">
+            <h1  style="color: rgb(118, 151, 124);">SIGN-UP FOR NEWSLETTER</h1>
+            <div class="row">
+                <div class="col-auto b-color align btn">
+                    <img src="./assets/send.png" class="w-50" alt="">
+                </div>
+                <div class="col mt-2">
+                    <p> GET UPDATES AND SIGN-UP FOR OUR EXCITING NEWSLETTER</p>
+                </div>
+                
+            </div>
+        </div>
+       </div>
+
+       <footer class="text">
+            <div class="">
+                <img src="./assets/pareto.png" class="w-20" alt="">
+                <img src="./assets/mmiholdings.png" class="w-20" alt="">
+            </div>
+            <p>© Tygervalley Mall 2017 | Terms & Conditions | Privacy Policy | Developed by FGX Studios</p>
+       </footer>
+       
+
+    </div>
+    <script src="./css/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

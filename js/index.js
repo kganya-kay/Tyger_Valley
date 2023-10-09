@@ -1,0 +1,5 @@
+
+
+function toggle(){
+    $('.show').toggle();
+}
